@@ -3,28 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KGREEN SRL – Soluzioni di visura d’impresa</title>
+  <title>KGREEN SRL – Soluzioni di visura d'impresa</title>
   <style>
     :root{
       --primary:#0b8a3d;
       --dark:#0d0d0d;
       --light:#f6f6f6;
       --accent:#1abc9c;
-      --maxw:960px;
-      --shadow:0 4px 12px rgba(0,0,0,.1);
+      --maxw:1100px;
+      --shadow:0 2px 8px rgba(0,0,0,.1);
       font-family:"Helvetica Neue",Arial,sans-serif;
     }
-    body{margin:0;color:var(--dark);background:var(--light);}
-    header{background:var(--primary);color:#fff;padding:2.5rem 1rem;box-shadow:var(--shadow);}
-    header h1{margin:0;font-size:2rem;}
-    nav{margin-top:1rem}
-    nav a{color:#fff;text-decoration:none;margin-right:1rem}
-    main{max-width:var(--maxw);margin:2rem auto;padding:0 1rem}
-    section{margin-bottom:3rem}
-    h2{color:var(--primary);margin-bottom:.5rem}
-    .card{background:#fff;border-radius:6px;padding:1.5rem;box-shadow:var(--shadow)}
-    footer{background:#222;color:#ddd;text-align:center;padding:1.5rem .5rem}
-    footer a{color:#1abc9c;text-decoration:none}
+    body{margin:0;color:var(--dark);background:var(--light);height:100vh;overflow:hidden;}
+    header{background:var(--primary);color:#fff;padding:1rem 1rem;box-shadow:var(--shadow);}
+    header h1{margin:0;font-size:1.5rem;}
+    nav{margin-top:0.5rem;}
+    nav a{color:#fff;text-decoration:none;margin-right:1rem;font-size:0.9rem;}
+    main{max-width:var(--maxw);margin:0.8rem auto;padding:0 1rem;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;height:calc(100vh - 140px);}
+    section{margin:0;}
+    h2{color:var(--primary);margin:0 0 0.5rem 0;font-size:1.1rem;}
+    .card{background:#fff;border-radius:6px;padding:1rem;box-shadow:var(--shadow);height:fit-content;}
+    .card p{margin:0.5rem 0;font-size:0.9rem;line-height:1.4;}
+    .card ul{margin:0.5rem 0;padding-left:1.2rem;}
+    .card li{font-size:0.9rem;line-height:1.3;margin:0.3rem 0;}
+    footer{background:#222;color:#ddd;text-align:center;padding:0.8rem 0.5rem;position:fixed;bottom:0;width:100%;font-size:0.8rem;}
+    footer a{color:#1abc9c;text-decoration:none;}
   </style>
 </head>
 <body>
@@ -41,17 +44,17 @@
 <main>
   <section id="azienda" class="card">
     <h2>Ragione sociale</h2>
-    <p><strong>KGREEN SRL</strong> è un'azienda orientata all’innovazione green e allo sviluppo tecnologico. Operiamo come intermediari, fornendo soluzioni efficaci e immediate.<br>
-        Tra i nostri servizi, offriamo un servizio di intermediazione per la fornitura di report di valutazione aziendali. </p>
+    <p><strong>KGREEN SRL</strong> è un'azienda orientata all'innovazione green e allo sviluppo tecnologico. Operiamo come intermediari, fornendo soluzioni efficaci e immediate.</p>
+    <p>Tra i nostri servizi, offriamo un servizio di intermediazione per la fornitura di report di valutazione aziendali.</p>
   </section>
 
   <section id="servizi" class="card">
-    <h2>Descrizione del servizo</h2>
+    <h2>Descrizione del servizio</h2>
     <p>Mettiamo a disposizione una piattaforma che permette a privati, professionisti e imprese di:</p>
     <ul>
-      <li>Ottenere visure aziendali in tempo reale.</li>
-      <li>Monitorare variazioni societarie.</li>
-      <li>Analizzare indicatori di affidabilità delle controparti.</li>
+      <li>Ottenere visure aziendali in tempo reale</li>
+      <li>Monitorare variazioni societarie</li>
+      <li>Analizzare indicatori di affidabilità delle controparti</li>
     </ul>
     <p>Tutte le soluzioni sono erogate nel rispetto dei più elevati standard di sicurezza e privacy.</p>
   </section>
@@ -72,4 +75,3 @@
 
 </body>
 </html>
-
